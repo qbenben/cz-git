@@ -1,0 +1,8 @@
+[build]
+  publish = "./"
+
+[[redirects]]
+  from = "/*"
+  to = "https://cz-git.qbb.sh/:splat"
+  status = 301
+  force = true
